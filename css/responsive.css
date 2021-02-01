@@ -1,0 +1,95 @@
+/*Media Query For Tablet*/
+@media only screen and (max-width: 768px){
+	 h2 {
+      font-size:1.5rem;
+}
+   .banner-section {
+       min-height: 40vh;
+}
+
+   .skill-section .skill-items{
+       flex-basis:50%;
+       justify-content: center;
+}
+
+.contact-section .contact-info{
+      clip-path: circle(31% at 51% 54%);
+}
+.contact-section .contact-box h6{
+      margin-top:220px;
+      text-align: center;
+}
+.contact-section .contact-box p{
+	 text-align: center;
+}
+
+}
+/*Media Query For Mobile*/
+@media only screen and (max-width: 576px){
+  .banner-section .banner-content{
+   	text-align: center;
+}
+ .banner-section {
+    min-height: 60vh;
+}.banner-section .banner-image{
+   justify-content: center;
+}
+ .banner-section .banner-image img{
+    width:150px;
+    height:150px;
+    margin-top:50px;
+}
+ .portfolio-section .hovereffect img{
+	margin: 0 auto;
+}
+ .portfolio-section .hovereffect:hover .overlay {
+    display:none;
+}
+.portfolio-section .hovereffect:hover img { 
+    transform: scale(1);
+}
+.contact-section .contact-box h6{
+    margin-top:60px;
+}
+.footer-section p{
+   text-align: center;
+}
+.footer-section .social-box .fa {
+   margin:20px 0 0 70px;
+
+}
+}
+@media only screen and (max-width: 360px){
+ h2{
+  font-size: 20px;
+ }
+ p{
+  font-size:14px;
+ }
+ .navbar-light .navbar-brand {
+  font-size: 1.75rem;
+  margin:0 auto;
+}
+.banner-section .banner-image img{
+  width:100px;
+  height:100px;
+}
+.service-section .service-box h4 {
+    font-size: 1.25rem;
+}
+.contact-section .contact-box h6{
+   font-size: 12px;
+}
+.contact-section .contact-box h6:before{
+   font-size: 12px;
+}
+.contact-section .form-group {
+   width:90%;
+}
+.footer-section .social-box .fa {
+   margin:20px 0 0 35px;
+
+}
+
+
+}
